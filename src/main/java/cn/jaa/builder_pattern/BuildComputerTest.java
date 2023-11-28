@@ -1,5 +1,7 @@
 package cn.jaa.builder_pattern;
 
+import lombok.extern.slf4j.Slf4j;
+
 import java.util.logging.Logger;
 
 /**
@@ -7,9 +9,8 @@ import java.util.logging.Logger;
  * @Description:
  * @Date 2023/11/28 21:37
  */
+@Slf4j
 public class BuildComputerTest {
-
-    private static final Logger log = Logger.getLogger(String.valueOf(BuildComputerTest.class));
 
     public static void main(String[] args) {
         ComputerDirector computerDirector = new ComputerDirector();

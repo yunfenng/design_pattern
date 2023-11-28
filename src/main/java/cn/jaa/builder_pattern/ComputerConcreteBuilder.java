@@ -1,6 +1,7 @@
 package cn.jaa.builder_pattern;
 
 import cn.jaa.factory_pattern.FactoryDemo;
+import lombok.extern.slf4j.Slf4j;
 
 import java.util.logging.Logger;
 
@@ -9,9 +10,10 @@ import java.util.logging.Logger;
  * @Description:
  * @Date 2023/11/28 21:18
  */
+@Slf4j
 public class ComputerConcreteBuilder implements ComputerBuilder {
 
-    private static final Logger log = Logger.getLogger(String.valueOf(ComputerConcreteBuilder.class));
+    // private static final Logger log = Logger.getLogger(String.valueOf(ComputerConcreteBuilder.class));
 
     Computer computer;
 
